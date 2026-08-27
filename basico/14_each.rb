@@ -4,6 +4,6 @@ a.each { |elemento| puts elemento}
 
 #ou
 
-a.each do |elemento |
+a.each do |elemento|
     puts elemento + 2
 end
