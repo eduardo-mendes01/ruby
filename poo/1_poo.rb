@@ -7,7 +7,7 @@ class Pessoa
     attr_accessor :nome
     attr_accessor :idade
     #attr_writer - para guardar
-    #attr_read - para ler
+    #attr_reader - para ler
     #attr_accessor - para os dois
 
     def guardar_nome(nome)
