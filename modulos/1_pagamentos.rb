@@ -1,6 +1,13 @@
-#como se fosse biblioteca
 module Pagamento
-    def pagar(bandeira, numero, valor)
-        "Pagando com cartão #{bandeira} no número #{numero} com o valor R$ #{valor}"
+  PI = 3.14
+
+  def pagar(badeira, numero, valor)
+    "Pagando com o cartão #{badeira} Número #{numero}, o valor de R$#{valor}..."
+  end
+
+  class Visa
+    def pagando
+      "pagando..."
     end
+  end
 end
